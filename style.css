@@ -151,7 +151,9 @@
     margin-top: 10px;
 }
 .box-linha p {
+    font-size: 14px;
     color: darkgray;
+    font-style: italic;
 }
 .linha {
     width: 250px;
