@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,500;1,300;1,500&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+}
+.body {
+    box-sizing: border-box;
+}
 .main-body {
     display: flex;
     justify-content: center;
@@ -10,7 +17,7 @@
     align-items: center;
     width: 672px;
     height: 1066px;
-    background-color: aquamarine;
+    
 }
 .header-box {
     display: flex;
@@ -100,7 +107,7 @@
 .box-h2 {
     height: 100%;
     color: #fff;
-    font-size: 10px;
+    font-size: 8px;
     margin-right: 10px;
 }
 .zigzag {
@@ -117,7 +124,7 @@
     flex-direction: column;
     justify-content: center;
     width: 550px;
-    height: 390px;
+    height: 460px;
     margin-top: 20px;
 }
 .news-logo-box {
@@ -147,6 +154,66 @@
     color: darkgray;
 }
 .linha {
-    width: 50%;
+    width: 250px;
     height: 5px;
+}
+.new-two-box {
+    display: flex;
+    width: 550px;
+    height: 100%;
+}
+.news {
+    display: flex;
+    width: 550px;
+    height: 330px;
+}
+.box-two {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.news-koby {
+    width: 250px;
+    height: 200px;
+}
+.box-title-news {
+    width: 250px;
+    height: 80px;
+}
+.box-title-news h2 {
+    font-size: 18px;
+    margin-top: 2px;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 100px;
+    background-image: url("./img/footer-bg.png");
+    margin-top: 0px;
+}
+.box-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 80px;
+}
+.copyright {
+    display: flex;
+    width: 600px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.box-copyright h3 {
+    color: #737373;
+    font-size: 12px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.box-copyright a {
+    color: #737373;
 }
